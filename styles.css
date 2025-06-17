@@ -195,7 +195,6 @@ body.dark-mode .top-bar .logo {
 /* Theme toggle button container at the bottom */
 .theme-toggle-wrapper {
   padding: 10px 15px; /* Adds padding */
-  margin-top: auto; /* Ensures the button stays at the bottom */
 }
 
 /* Style for theme toggle button */
