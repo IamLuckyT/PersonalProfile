@@ -335,8 +335,6 @@ body, .sidebar, .nav-links a, .main-content {
 }
 
 .image-content {
-  flex: 1;
-  display: flex; /* Flexbox layout for image content */
-  justify-content: center; /* Centers the image horizontally */
+  width: fit-content; /* Fits the image content */
   border-radius: 10px; /* Rounded corners for the image container */
 }
