@@ -321,7 +321,7 @@ body, .sidebar, .nav-links a, .main-content {
 
 .hero {
   display: flex; /* Flexbox layout for hero section */
-  align-items: center; /* Centers items vertically */
+  /* align-items: center; Centers items vertically */
   justify-content: space-between; /* Space between items */
   padding: 50px; /* Padding around the hero section */
   background-color: var(--background-color); /* Background color based on theme */
