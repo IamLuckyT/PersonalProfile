@@ -319,3 +319,24 @@ body.dark-mode #menu-toggle, body.dark-mode #close-sidebar {
 body, .sidebar, .nav-links a, .main-content {
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
 }
+
+.hero {
+  display: flex; /* Flexbox layout for hero section */
+  align-items: center; /* Centers items vertically */
+  justify-content: space-between; /* Space between items */
+  padding: 50px; /* Padding around the hero section */
+  background-color: var(--background-color); /* Background color based on theme */
+  color: var(--text-color); /* Text color based on theme */
+}
+
+.text-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-content {
+  flex: 1;
+  display: flex; /* Flexbox layout for image content */
+  justify-content: center; /* Centers the image horizontally */
+  border-radius: 10px; /* Rounded corners for the image container */
+}
