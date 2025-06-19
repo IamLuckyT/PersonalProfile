@@ -344,6 +344,7 @@ body, .sidebar, .nav-links a, .main-content {
   border-radius: 10px; /* Rounded corners for the image */
 }
 
+/* Footer styles */
 footer {
   background-color: var(--background-color); /* Background color based on theme */
   color: var(--text-color); /* Text color based on theme */
@@ -353,3 +354,23 @@ footer {
   bottom: 0; /* Sticks to the bottom of the page */
   width: 100%; /* Full width of the screen */
 }
+
+.footer-content {
+  max-width: 1200px; /* Maximum width for the footer content */
+  margin: 0 auto; /* Centers the footer content */
+  justify-content: space-between; /* Space between items */
+  display: flex; /* Flexbox layout for footer content */
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.social-links a {
+  color: var(--text-color); /* Text color based on theme */
+  font-size: 24; /* Font size for social links */
+  text-decoration: none; /* Removes underline */
+  margin: 0 15px; /* Margin between social links */
+}
+
+.social-links a:hover {
+  color: var(--link-hover-color); /* Changes color on hover */
+}
+
