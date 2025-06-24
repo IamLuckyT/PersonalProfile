@@ -374,6 +374,7 @@ footer {
   color: var(--link-hover-color); /* Changes color on hover */
 }
 
+/* GLOWING BUTTON FOUND NEXT TO */
 .glowing-button {
   padding: 12px 24px;
   background: transparent;
