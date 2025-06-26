@@ -334,7 +334,7 @@ body, .sidebar, .nav-links a, .main-content {
 }
 
 .image-content {
-  width: 160px; /* Fits the image content */
+  width: 260px; /* Fits the image content */
   border-radius: 10px; /* Rounded corners for the image container */
 }
 
